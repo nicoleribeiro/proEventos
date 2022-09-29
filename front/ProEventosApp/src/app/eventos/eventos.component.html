@@ -1,2 +1,5 @@
 <h1>Eventos</h1>
-<p>Eventos do component</p>
+<div *ngFor="let evento of eventos">
+  <p>{{evento.tema}}</p>
+  <hr>
+</div>
