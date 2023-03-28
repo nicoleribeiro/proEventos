@@ -2,8 +2,8 @@
 <hr>
 
 <form action="" class="form-inline">
-  <div class="form-group mb-2">
-    <input type="text" class="form-control mr-2" placeholder="buscar">
+  <div class="form-group mb-2 d-flex">
+    <input type="text" class="form-control mr-2" placeholder="Buscar">
     <button class="btn btn-outline-success">Buscar</button>
   </div>
 </form>
@@ -21,16 +21,27 @@
       <th>Opções</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+  <tbody *ngIf="eventos">
+    <tr *ngFor="let evento of eventos">
+      <td>{{evento.eventoId}}</td>
+      <td>
+        <img src="./assets/{{evento.imagemURL}}"
+        [style.width.em]="widthImg"
+        [style.margin.em]="marginImg">
+      </td>
+      <td>{{evento.tema}}</td>
+      <td>{{evento.local}}</td>
+      <td>{{evento.dataEvento}}</td>
+      <td>{{evento.qtdPessoas}}</td>
+      <td>{{evento.lote}}</td>
+      <td>{{evento.opc}}</td>
     </tr>
   </tbody>
+  <tfoot *ngIf="!eventos">
+    <tr>
+      <td colspan="8" class="text-center">
+        <h4>Nenhum evento encontrado.</h4>
+      </td>
+    </tr>
+  </tfoot>
 </table>
