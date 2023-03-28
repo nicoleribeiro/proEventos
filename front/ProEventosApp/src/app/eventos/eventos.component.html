@@ -6,7 +6,7 @@
     <input
       type="text"
       class="form-control mr-2"
-      placeholder="Buscar"
+      placeholder="Buscar tema"
       [(ngModel)]="filtroLista"> 
     <button class="btn btn-outline-success">Buscar</button>
   </div>
@@ -31,7 +31,7 @@
     </tr>
   </thead>
   <tbody *ngIf="eventos">
-    <tr *ngFor="let evento of eventos">
+    <tr *ngFor="let evento of eventosFiltrados">
       <td>
         <img src="./assets/{{evento.imagemURL}}"
         [collapse]="showImg" 
