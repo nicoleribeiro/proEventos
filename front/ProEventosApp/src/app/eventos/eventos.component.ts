@@ -10,8 +10,9 @@ export class EventosComponent implements OnInit {
 
   public eventos: any = [];
   // medida em EM
-  widthImg: number = 5;
+  widthImg: number = 6;
   marginImg: number = 1;
+  showImg: boolean = true;
 
   constructor(
     private http:HttpClient
@@ -19,6 +20,10 @@ export class EventosComponent implements OnInit {
 
   ngOnInit(): void {
     this.getEventos();
+  }
+
+  showImage(){
+    this.showImg = !this.showImg;
   }
 
   public getEventos():void{
