@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Soj/e64XTD3r6nBFSk5zHP/tKIv4BWnYBuCwL7AJqBLWLP0hTVVXb7IbVZ7gPitF1dRpQriz0zYPcmQyjuNRSQ==",
+  "dgSpecHash": "2z7F8yP6uPQ+UQJVEyxfqTlKfQ6De3gR8xqdnOVZcxY7a+EcmbZBb5nFAT8HHl8kxtvm6lNi8rQ9indp2ARUpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\Desktop\\proEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\Documents\\pastinhas\\proEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.9\\microsoft.data.sqlite.core.6.0.9.nupkg.sha512",
