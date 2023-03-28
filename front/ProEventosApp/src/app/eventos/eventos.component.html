@@ -3,15 +3,16 @@
 
 <div action="" class="form-inline">
   <div class="form-group mb-2 d-flex">
+    <label for="filtro" class="mx-3 my-2">Filtro:</label>
     <input
+      id="filtro"
       type="text"
       class="form-control mr-2"
-      placeholder="Buscar tema"
+      placeholder="Buscar"
       [(ngModel)]="filtroLista"> 
-    <button class="btn btn-outline-success">Buscar</button>
   </div>
 </div>
-<h3>Filtro: {{filtroLista}}</h3>
+
 <table class="table table-striped">
   <thead class="table-dark">
     <tr>
@@ -44,7 +45,10 @@
       <td>{{evento.dataEvento}}</td>
       <td>{{evento.qtdPessoas}}</td>
       <td>{{evento.lote}}</td>
-      <td>{{evento.opc}}</td>
+      <td class="d-flex justify-content-evenly">
+        <button class="btn btn-primary btn-sm">Editar</button>
+        <button class="btn btn-danger btn-sm">Excluir</button>
+      </td>
     </tr>
   </tbody>
   <tfoot *ngIf="!eventos">
