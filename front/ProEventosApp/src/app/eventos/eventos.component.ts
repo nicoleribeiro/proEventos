@@ -13,6 +13,8 @@ export class EventosComponent implements OnInit {
   widthImg: number = 6;
   marginImg: number = 1;
   showImg: boolean = true;
+  // Two-way data binding
+  filtroLista: string = '';
 
   constructor(
     private http:HttpClient
