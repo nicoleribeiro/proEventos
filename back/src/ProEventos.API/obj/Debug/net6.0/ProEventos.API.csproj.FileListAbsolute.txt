@@ -106,3 +106,9 @@ C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\obj\Debug\
 C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\obj\Debug\net6.0\ProEventos.API.pdb
 C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\obj\Debug\net6.0\ProEventos.API.genruntimeconfig.cache
 C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\obj\Debug\net6.0\ref\ProEventos.API.dll
+C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\bin\Debug\net6.0\ProEventos.Application.dll
+C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\bin\Debug\net6.0\ProEventos.Domain.dll
+C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\bin\Debug\net6.0\ProEventos.Persistence.dll
+C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\bin\Debug\net6.0\ProEventos.Application.pdb
+C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\bin\Debug\net6.0\ProEventos.Domain.pdb
+C:\Users\nicol\Documents\pastinhas\proEventos\back\src\ProEventos.API\bin\Debug\net6.0\ProEventos.Persistence.pdb
